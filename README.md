@@ -1,26 +1,15 @@
-# HomeWeather
-Measure temperature near my potplants and show me the temp + Humidity
- 
-## Working: 
-Visualisation per 4Digit 7Sev Display and Transmission via Bluetooth with a few settings --> everythings possible
- 
-## HickHacks with Bluetooth: 
-To change SensorPullrate: Stop the Sending-Service (if running) and then set the Pullrate. Do not go below 15 ms, better yet not below 30ms. The communication will crash, if you do it...
- 
-## Settings:
-   * define TEMP 0  --> Show Temp on Display
-   *  HUM 1   --> Show Hum on Display
-   *  OFF 2   --> Show nothing on Display
-   *  SENSOR_PULL_RATE 4 --> change sensor pulling rate
-   *  SEND 5  --> send temp and hum per bluetooth 
-   * * Service: 0xFFE0 | 0000ffe0-0000-1000-8000-00805f9b34fb
-   * * Charac: 0xFFE1 | 0000ffe1-0000-1000-8000-00805f9b34fb
-   *  UwU 6//66   --> find out yourself!
+# TischArduino
+Arduino for fun
+Name sagt alles 
 
-## The potplant
-Rubbertree: 
-* Temps: 20-25°C (not below 15°C)
-* Sun but not directly
-* ~30cm high
-
-        Lets hope he survives! 
+## Schaltplan und Software Variablen
+VrX = A0 || X-Achse des Joysticks <br>
+VrY = A1 || Y-Achse des Joysticks <br>
+SW = D2 || (InterruptPin) der Switch des Joysticks <br>
+Hum = D8 || Humidity and Temperatur Sensor <br>
+LCD = I²C || an Pin A4 und A5 <br>
+Licht = A3 || Lichtsensor <br>
+Lampe = D10 || muss PWM können <br>
+MP3 = 
+> RX : 12
+> TX : 11
