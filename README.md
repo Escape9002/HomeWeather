@@ -23,4 +23,6 @@ Rubbertree:
 * Sun but not directly
 * ~30cm high
 
-        Lets hope he survives! 
+        Lets hope he survives!
+# TischArduino
+This was an older project of mine, I still enjoy the code and it might be helpful for further extension of this main project, so you can find it here (on another branch) as well. It's not best practice, so please dont do PullRequest from TischArduino into this project, as it would overwrite everything...they are not the same and shall not see each other!
